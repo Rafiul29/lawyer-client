@@ -4,3 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.footer-wrapper,
+.copyright-area
+{
+    max-width: 65%;
+    margin: 0 auto;
+}
