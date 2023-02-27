@@ -1,8 +1,13 @@
 import React from 'react'
+import Cart from '../components/Cart'
+import Subscription from '../components/Subscription'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Subscription/>
+      <Cart/>
+    </div>
   )
 }
 
