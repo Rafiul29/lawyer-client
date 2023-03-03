@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import {NavLink,Link} from "react-router-dom";
 const Navabar = ({isNavActiveStyles}) => {
   return (
     <div className="navbar bg-gray-300 h-20 flex justify-center items-center  shadow-sm">
@@ -34,9 +34,12 @@ const Navabar = ({isNavActiveStyles}) => {
           >
             Search
           </button>
+          <Link to="/registration">
           <button className="bg-orange-500 py-2 px-5 rounded-md text-xl hover:bg-orange-400 duration-300">
             Login/Registration
           </button>
+          </Link>
+          
         </div>
       </div>
     </div>

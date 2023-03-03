@@ -1,13 +1,13 @@
 import React from "react";
-import Button from "./Button";
+
 
 export const CartItem = ({ cart }) => {
   return (
     <div className="product flex flex-col gap-10 bg-white shadow-md rounded-xl overflow-hidden hover:shadow-xl border border-gray-200 p-5 relative">
       <div className="img ">
         <img
-          src={cart.image}
-          alt={cart.name}
+          src="https://freepngimg.com/thumb/man/22654-6-man-thumb.png"
+          alt=""
           className="h-50 w-50 rounded-full object-cover mx-auto bg-gray-400"
         />
       </div>
